@@ -15,6 +15,10 @@
   font-family: "Exo 2", sans-serif;
 }
 
+body {
+  background-color: #1f1f1f;
+}
+
 /* =================== Home =================== */
 
 .logo img {
@@ -163,17 +167,64 @@ header {
 
 /* =================== Planos =================== */
 
+.planos h2 {
+  text-align: center;
+}
+
+.container-cards-planos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-card {
+  background-image: url(assets/Card\ Container.png);
+  background-size: cover;
+  width: 280px;
+  height: 390px;
+  padding: 72px 30px 30px 30px;
+}
+
 .container-card h2 {
   font-weight: 800;
   letter-spacing: 1.5px;
-  font-size: 16pt;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .container-card p {
-  font-size: 12pt;
+  font-size: 13px;
 }
 
 .lista {
-  text-decoration: double;
-  list-style: circle;
+  font-size: 13px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.preco {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 15px;
+}
+.item-lista {
+  margin-top: 6px;
+}
+
+.atendente {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dbdce2;
+  padding: 25px 20px 25px 20px;
+}
+
+.atendente p {
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
 }
