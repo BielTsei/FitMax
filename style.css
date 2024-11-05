@@ -57,6 +57,7 @@ header {
   padding-top: 110px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  padding-bottom: 60px;
 }
 
 .home-texts div {
@@ -64,8 +65,7 @@ header {
   justify-content: center;
 }
 
-.home-texts button {
-  margin-top: 40px;
+.btn-contact {
   width: 180px;
   height: 50px;
   background-color: var(--red);
@@ -75,7 +75,7 @@ header {
   justify-content: center;
 }
 
-.home-texts button a {
+.btn-contact a {
   font-size: 11pt;
   color: var(--white);
   font-family: "Exo 2", sans-serif;
@@ -144,3 +144,36 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 } */
+
+.container-btn-contact {
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dbdce2;
+}
+
+.container-btn-contact p {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 25px 20px;
+}
+
+/* =================== Serviços =================== */
+
+/* =================== Planos =================== */
+
+.container-card h2 {
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  font-size: 16pt;
+}
+
+.container-card p {
+  font-size: 12pt;
+}
+
+.lista {
+  text-decoration: double;
+  list-style: circle;
+}
