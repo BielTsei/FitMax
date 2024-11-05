@@ -1,4 +1,60 @@
+:root {
+  --red: #d32f2f;
+  --black: #1f1f1f;
+  --gray: #424242;
+  --white: #f2f2f2;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 120px;
+}
+
+header {
+  backdrop-filter: blur(12px);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  color: var(--white);
+  height: 100vh;
+  background-image: url(assets/home-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-texts h1 {
+  padding-left: 20px;
+  padding-top: 150px;
+}
+
+.home-texts p {
+  padding-top: 110px;
+}
+
+.home-texts button {
+  margin-top: 40px;
+  width: 180px;
+  height: 50px;
+  background-color: var(--red);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-texts button a {
+  color: var(--white);
 }
