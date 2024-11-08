@@ -111,6 +111,8 @@ header {
   padding-right: 20px;
   background-color: var(--black);
   color: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
 .servicos h2 {
@@ -243,8 +245,67 @@ header {
 /* =================== Footer =================== */
 footer {
   background-color: var(--gray);
+  padding: 25px 20px 30px 20px;
 }
 
+.social img {
+  width: 26px;
+}
+
+.funcionamento {
+  color: var(--white);
+}
+
+.funcionamento p {
+  font-size: 12pt;
+  margin-bottom: 15px;
+}
+
+#title-funci {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 12pt;
+  margin-bottom: 10px;
+}
+
+.line {
+  display: flex;
+  background-color: var(--red);
+  height: 3px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social p {
+  font-weight: 400;
+  font-size: 12pt;
+  color: var(--white);
+}
+
+.slogan {
+  font-weight: 800;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.credito {
+  text-align: center;
+  color: var(--white);
+  font-size: 10pt;
+}
+
+.container-socials {
+  display: flex;
+  flex-direction: column;
+}
 /* =================== Footer =================== */
 
 /* =================== MEDIAS =================== */
@@ -288,6 +349,32 @@ footer {
   .home-texts div {
     justify-content: flex-start;
     padding-left: 150px;
+  }
+
+  .container-socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  #title-funci {
+    text-align: center;
+  }
+
+  .funcionamento p {
+    text-align: center;
+  }
+  .servicos {
+    padding: 50px 80px 50px 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
   }
 }
 
